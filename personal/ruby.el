@@ -1,3 +1,3 @@
-(prelude-require-packages '(prelude-ruby yard-mode))
+(prelude-require-packages '(yard-mode))
 
 (add-hook 'ruby-mode-hook 'yard-mode)

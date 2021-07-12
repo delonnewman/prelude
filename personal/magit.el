@@ -1,3 +1,4 @@
-(prelude-require-package 'magit)
+(prelude-require-packages '(magit forge))
 
-(require 'forge)
+(with-eval-after-load 'magit
+   (require 'forge))

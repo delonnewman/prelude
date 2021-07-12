@@ -1,4 +1,4 @@
-(prelude-require-package 'prelude-ts)
+;;(prelude-require-package 'prelude-ts)
 
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . typescript-mode))
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . web-mode))
